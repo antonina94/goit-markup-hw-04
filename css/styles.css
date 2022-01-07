@@ -160,6 +160,8 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  display: flex;
+  align-items: center;
 }
 
 .header-auth-nav:hover,
@@ -180,7 +182,6 @@ body {
     url(../images/img19.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 600px;
   max-width: 1600px;
   margin: 0 auto;
   background-size: cover;
@@ -224,7 +225,8 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.about-icon-link {
+
+.icon-tasks {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
@@ -435,6 +437,11 @@ body {
 }
 
 /* Footer */
+.footer-left {
+  margin-top: 20px;
+  margin-right: 70px;
+}
+
 .footer {
   letter-spacing: 0.03em;
   font-size: 14px;
@@ -455,10 +462,6 @@ body {
 
 .footer-logo .accent {
   color: var(--accent-color);
-}
-.adress {
-  margin-top: 20px;
-  margin-right: 70px;
 }
 
 .adress-text {
@@ -627,8 +630,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-.hover-focus:hover,
-.hover-focus:focus {
+.project-link:hover,
+.project-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.project-link {
+  display: block;
 }
